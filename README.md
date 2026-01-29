@@ -21,7 +21,13 @@ Security tool for Medical Imaging. Removes PII (Personally Identifiable Informat
 * **Status:** Completed
 * **Focus:** Healthcare Data Privacy
 
----
+### 🛡️ [Brute Force Defender](./brute_force_defender.py)
+A security script that simulates account lockout logic to prevent password-guessing attacks.
+* **Focus:** Identity & Access Management (IAM)
+
+### 🩺 [Healthcare Data Integrity Checker](./data_integrity_checker.py)
+Ensures medical records haven't been tampered with by using SHA-256 cryptographic hashing.
+* **Focus:** Data Integrity & GDPR Compliance
 
 ## 📧 Contact
 * **Email:** [biocyberwall@outlook.com](mailto:biocyberwall@outlook.com)
