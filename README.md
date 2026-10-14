@@ -16,10 +16,17 @@ A Python-based tool to identify open ports and potential entry points in a netwo
 * **Status:** Active
 * **Tools:** Python, Socket Library
 
-### 🏥 [DICOM Patient Anonymizer](./dicom_anonymizer.py)
-Security tool for Medical Imaging. Removes PII (Personally Identifiable Information) from DICOM headers to ensure GDPR compliance.
-* **Status:** Completed
-* **Focus:** Healthcare Data Privacy
+### 🏥 [DICOM Metadata Privacy Demo](./dicom_anonymizer.py)
+
+An educational Python prototype demonstrating how selected
+personal information can be redacted from simulated
+DICOM metadata.
+
+- **Status:** Educational Prototype
+- **Focus:** Healthcare Data Privacy, DICOM Metadata
+- **Tools:** Python
+- **Note:** Uses fictional patient data. Does not process
+  actual DICOM files or guarantee GDPR compliance.
 
 ### 🛡️ [Brute Force Defender](./brute_force_defender.py)
 A security script that simulates account lockout logic to prevent password-guessing attacks.
