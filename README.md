@@ -36,10 +36,16 @@ A security script that simulates account lockout logic to prevent password-guess
 Ensures medical records haven't been tampered with by using SHA-256 cryptographic hashing.
 * **Focus:** Data Integrity & GDPR Compliance
 
-### 🏥 [Advanced Medical Traffic Analyzer](./medical_traffic_analyzer.py)
-A specialized tool for inspecting **HL7 (Health Level Seven)** protocol packets from medical devices.
-* **Key Features:** Detects missing TLS encryption and identifies sensitive Patient ID (PID) segments.
-* **Focus:** Medical Device Security, Network Forensics, Regulatory Compliance (GDPR).
+### 🏥 [HL7 Message Analyzer](./medical_traffic_analyzer.py)
+
+An educational Python prototype for analyzing sample HL7 v2 messages.
+
+- **Status:** Educational Prototype
+- **Features:** Detects MSH and PID segments in fictional HL7 messages.
+- **Focus:** Healthcare IT, HL7 Messaging, Data Security
+- **Tools:** Python
+- **Note:** Does not capture real network traffic, verify TLS encryption, or provide complete HL7 validation.
+
 
 ## 📧 Contact
 * **Email:** [biocyberwall@outlook.com](mailto:biocyberwall@outlook.com)
